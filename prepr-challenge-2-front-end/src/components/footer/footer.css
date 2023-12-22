@@ -1,0 +1,34 @@
+.footer-section{
+    height: 51px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    bottom: -50px;
+    background-color: rgba(255, 255, 255, 1) !important;
+    z-index: 9999;
+    display: table;
+    font-size: 12px;
+    box-shadow: 0 2px 5px #23222233;
+    border: 0;
+
+}
+
+.footer-section label{
+    padding: 10px 5px;
+    color: #727d92
+}
+
+.footer-right {
+    padding: 0 5px !important;
+    margin-bottom: 0.5rem !important;
+} 
+
+
+
+.footer-section a{
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 10px 5px;
+    line-height: 3.5;
+    color: #727d92 !important;
+}
