@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "SF UI Display Thin";
+    src: url("https://db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.eot");
+    src: url("https://db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.svg#SF UI Display Thin")format("svg");
+}
+
+@font-face {
+    font-family: "SF UI Display Medium";
+    src: url("https://db.onlinewebfonts.com/t/499a9b7e46661c79fd3aa2542cbdc440.eot");
+    src: url("https://db.onlinewebfonts.com/t/499a9b7e46661c79fd3aa2542cbdc440.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/499a9b7e46661c79fd3aa2542cbdc440.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/499a9b7e46661c79fd3aa2542cbdc440.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/499a9b7e46661c79fd3aa2542cbdc440.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/499a9b7e46661c79fd3aa2542cbdc440.svg#SF UI Display Medium")format("svg");
+}
+
+@font-face {
+    font-family: "SF UI Display Regular";
+    src: url("https://db.onlinewebfonts.com/t/762c72a2791c9d3eadc7e3b6b935aa69.eot");
+    src: url("https://db.onlinewebfonts.com/t/762c72a2791c9d3eadc7e3b6b935aa69.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/762c72a2791c9d3eadc7e3b6b935aa69.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/762c72a2791c9d3eadc7e3b6b935aa69.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/762c72a2791c9d3eadc7e3b6b935aa69.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/762c72a2791c9d3eadc7e3b6b935aa69.svg#SF UI Display Regular")format("svg");
+}
+
+
+html {
+    height: 100% !important;
+  }
+  
+  .body{
+    color: #727d92;
+    height: 100% !important;
+  }
+
+.login-container, .signup-container {
+    background: #add489;
+    padding: 0 !important;
+    height: 100%;
+    display: block;
+    color:#727d92
+}
+
+.login-container{
+    height: 100vh;
+}
+
+
+a{
+    text-decoration: none !important;
+    color: #27AE60 !important;
+}
+
+a:hover{
+    outline: 0;
+    opacity: .9;
+}
+
+
+
+
+.side-carousel{
+    padding: 50px 20px 10px; 
+    text-align: center;
+
+}
+
+.side-carousel img{
+    display: block;
+    width: 100%;
+}
+
+.form{
+    background: #fff;
+    margin-top: 25px !important;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    
+
+}
+
+.logo-title{
+    border-bottom: 1px solid #e0e7ef;
+    padding: 12px 20px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.form-content{
+    padding: 10px 40px;
+}
+
+.form-content .form-field{
+    margin: 1rem 0;
+}
+
+
+.form-content .form-control, .form-content .form-control:focus{
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    color: #727d92;
+    font-family: "SF UI Display Medium";
+    
+    
+}
+
+.form-content .form-select,.form-content .form-select:focus{
+    height: 50px;
+    outline: 0;
+    padding-left: 20px;
+    box-shadow: none;
+    border: none;
+    color: #727d92;
+    font-family: "SF UI Display Medium";
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.form-content  .optional{
+    color: #727d92;
+
+}
+
+
+
+.form-content label{
+    color: #757575;
+    font-family: "SF UI Display Thin";
+  
+
+
+}
+
+.form-content .label-icon{
+    margin-right: 13px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+   
+}
+
+.form-content .label-icon img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: -1px;
+    
+}
+
+.btn.form-submit, .btn.sso{
+    border: 0;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: "SF UI Display Regular";
+    color: #fff!important;
+
+}
+
+.btn.form-submit {
+    background-color: #ffa841!important;
+    color: #fff!important;
+  
+}
+
+.btn.sso{
+    background-color: #f46c42!important;
+    color: #fff!important;
+}
+
+.btn.form-submit:hover, .btn.sso:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.or{
+    margin: 8px auto;
+    font-family: "SF UI Display Thin";
+    font-size: 15px;
+}
+
+.bottom-links{
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.pass-eye{
+    position: absolute;
+    cursor: pointer;
+    top:32px;
+    right: 0;
+}
+
+.forget-password a{
+    font-size: 13px;
+    color: #727d92 !important;
+    text-decoration: none;
+    font-family: "SF UI Display Medium";
+}
+
+.form-field .error-msg{
+    color: #e45337;
+    font-size: 11px;
+}
