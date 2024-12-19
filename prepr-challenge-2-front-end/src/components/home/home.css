@@ -1,0 +1,29 @@
+.btn.login{
+    background-color: #ffa841!important;
+    color: #fff!important;
+  
+}
+
+.btn.signup{
+    background-color: #f46c42!important;
+    color: #fff!important;
+}
+
+.btn.signup:hover, .btn.login:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.btn.login, .btn.signup{
+    border: 0;
+    font-size: 20px;
+    padding: 8px 120px;
+    border-radius: 3px;
+    font-family: "SF UI Display Regular";
+    color: #fff!important;
+
+}
+
+.background{
+    background: #add489;
+
+}
