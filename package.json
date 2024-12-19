@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "server": "npm start --prefix prepr-login-system-backend",
+        "client": "npm start --prefix prepr-login-system-frontend",
+        "prod": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+        "concurrently": "^9.1.0"
+    }
+}
