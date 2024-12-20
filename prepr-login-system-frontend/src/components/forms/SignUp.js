@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import PasswordStrengthBar from "react-password-strength-bar";
 import PasswordChecklist from "react-password-checklist";
 import { useGoogleLogin } from "@react-oauth/google";
+import { urlProvider } from "../../config/UrlProviderInstanceManager"
 
 const SignUp = () => {
   let navigate = useNavigate();
@@ -23,7 +24,7 @@ const SignUp = () => {
 
   const configuration = {
     method: "post",
-    url: "http://localhost:3001/register",
+    url: urlProvider.getDomainUrl() + "/register",
     data: {
       email,
       password,

@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
+import { urlProvider } from "../../config/UrlProviderInstanceManager";
 
 function Login() {
   const form = useRef();
@@ -13,7 +14,7 @@ function Login() {
 
   const configuration = {
     method: "post",
-    url: "http://localhost:3001/login",
+    url: urlProvider.getDomainUrl() + "/login",
     data: {
       email,
       password,
@@ -123,7 +124,7 @@ function Login() {
                     </button>
                   </div>
                   <div className="text-center bottom-links">
-                    Don't have an account? <a href="/login">Sign Up</a>
+                    Don't have an account? <a href="/register">Sign Up</a>
                   </div>
                 </div>
               </div>
