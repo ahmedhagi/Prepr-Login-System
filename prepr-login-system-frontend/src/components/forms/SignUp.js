@@ -52,6 +52,7 @@ const SignUp = () => {
   };
 
   const login = useGoogleLogin({
+    ux_mode: "redirect",
     onSuccess: async (tokenResponse) => {
       console.log(tokenResponse);
       localStorage.clear();
@@ -250,8 +251,8 @@ const SignUp = () => {
                 <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY} />
                 <p>
                   <small>
-                    By registering, you agree to the Prepr
-                    <a href="#link"> Terms of use</a>,
+                    By registering, you agree to the Prepr 
+                    <a href="#link"> Terms of use</a> ,
                     <a href="#link">Privacy policy and cookie policy</a>
                   </small>
                 </p>
