@@ -105,7 +105,7 @@ function Login() {
                   </div>
 
                   <div className="forget-password mt-3">
-                    <a href="#link">Forget password?</a>,
+                    <a href="#link">Forget password?</a>
                   </div>
                   <div className="d-grid text-center mt-3">
                     <button
