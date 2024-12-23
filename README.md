@@ -1,4 +1,4 @@
-# Prepr Login System Recreation
+# Prepr Login System
 
 This project is a Full-stack recreation of the Prepr Login and Register pages. This application allows users to create and log into their account either by using the register form or by logging into their google account. This application also showscases many front-end design features such as icons, reCaptcha box, and password checker. 
 
